@@ -8,6 +8,4 @@ INNER JOIN
 WHERE
     o."inDelivery" = true
 GROUP BY
-    c.login
-ORDER BY
-    orders_in_delivery DESC;
+    c.login;
